@@ -1,4 +1,4 @@
-🫀 Heart Disease Prediction — Supervised Learning Lab
+🫀 Heart Failure Prediction — Supervised Learning Lab
 A complete supervised learning analysis on the Heart Failure Prediction Dataset.
 Built as part of a Machine Learning hands-on lab covering Decision Tree, Linear Regression, Logistic Regression, and Naïve Bayes.
 
