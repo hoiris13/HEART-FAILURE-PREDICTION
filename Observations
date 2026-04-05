@@ -1,0 +1,22 @@
+📝 Observations
+Across all four supervised learning models applied to the Heart Disease Prediction dataset,
+several key observations can be drawn. The Decision Tree achieved the highest overall accuracy
+of 86.96%, making it the strongest performer in terms of raw classification performance while
+also offering the advantage of visual interpretability through its tree structure, which allows
+anyone to follow the exact path of decisions the model makes. Within the Decision Tree,
+ST_Slope and ChestPainType emerged as the most dominant features, suggesting that the slope
+of the ST segment during exercise and the type of chest pain a patient experiences are the
+strongest clinical indicators of heart disease in this dataset. Despite being technically
+unsuitable for binary classification problems, Linear Regression still managed a reasonable
+accuracy of 83.70% when predictions were thresholded at 0.5, however its residual plot
+confirms that it struggles to model a binary outcome correctly since predictions frequently
+fall outside the natural 0–1 range, which is why Logistic Regression exists as its proper
+replacement for classification tasks. Naïve Bayes achieved the highest AUC-ROC score of
+0.9090, meaning that despite its simplifying assumption that all features are independent
+of each other, it was the most reliable model at separating patients with and without heart
+disease across all possible classification thresholds, which is a remarkable result given
+how strong that independence assumption is in practice. Finally, Logistic Regression proved
+to be the most balanced and clinically meaningful model overall, combining a solid accuracy
+of 84.24% with well-calibrated probability outputs and an AUC of 0.9010, making it the most
+suitable choice for a real medical setting where knowing the actual probability of disease
+rather than just a predicted label is essential for supporting informed clinical decisions.
