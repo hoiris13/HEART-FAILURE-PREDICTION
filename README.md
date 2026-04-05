@@ -6,7 +6,7 @@ Built as part of a Machine Learning hands-on lab covering Decision Tree, Linear 
 heart-disease-supervised-learning/
 │
 ├── heart.csv                                  # Dataset (918 patients, 12 features)
-├── Heart_Disease_Supervised_Learning.ipynb    # Main Jupyter Notebook
+├── heartfailure.ipynb    # Main Jupyter Notebook
 ├── README.md                                  # Project documentation
 └── requirements.txt                           # Python dependencies
 
